@@ -1,0 +1,102 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	border-radius: 18px;
+	box-shadow: 0 0 0 red;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.header-area{
+	background: #fff;
+	padding: 15px 0;
+	padding-bottom: 2px;
+}
+.middle-area{
+	width: 80%;
+	margin: auto;
+}
+
+
+.logo-area{
+	width: 30%;
+	float: left;
+
+
+}
+
+.main-menu{
+	width: 70%;
+	float: right;
+	
+}
+.main-menu ul{
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style: none;
+	overflow: hidden;
+}
+
+
+.main-menu ul li {
+    float: left;
+    padding: 3px 20px;
+    margin: 2px 2px;
+}
+
+.main-menu ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.main-menu ul li a{
+	padding: 10px 30px;
+	color:#fff;
+	font-size: 20px;
+	text-decoration: none;
+	display: block;
+}
+
+.main-menu ul li a:hover{
+	background: #bbb;
+}
+
+
+.container-bgcolor {
+	width: 720px;
+    margin: 0 auto;
+}
+.container-bgcolor h1{
+	text-align: center;
+	font-size: 70px;
+
+}
+.container-bgcolor h2{
+	text-align: center;
+	font-size: 60px;
+}
+.container-bgcolor p{
+	text-align: center;
+
+}
+.post{
+	
+	width: 400px;
+	float: left;
+}
+.img{
+	padding: 15px;
+	margin-bottom: 100px;
+
+}
+
+
+.color1{
+	color:red;
+}
